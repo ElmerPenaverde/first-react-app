@@ -1,0 +1,77 @@
+*{
+font-family: 'Inter', sans-serif;
+box-sizing: border-box; 
+color: rgb(255, 255, 255);
+}
+
+body{
+margin: 0;
+background-color: rgb(28, 28, 32);
+background-image: url(../public/react.png);
+background-repeat: no-repeat;
+background-position-y:bottom;
+background-position-x:right ;
+
+
+
+
+}
+
+.nav{
+     display: flex;
+     background-color: rgb(18, 18, 18);
+     height: 80px;
+     align-items: center;
+     margin: auto;
+     padding: 10px 10px;
+ 
+   
+}
+
+.h1{
+    color: rgb(100, 194, 245);
+    font-size: 20px;
+    font-weight: 900px;
+    justify-content: left;
+}
+
+.nav > p{
+ text-align: center;
+ color: rgb(255, 255, 255);
+ margin-left: auto;
+
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.Main{
+    justify-content: center;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+
+}
+
+.background-image{
+    background-image: url(../public/react.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%; 
+    margin-top: 200px;
+   
+}
+ul {
+    list-style: none; 
+  }
+ul > li::before {
+    content: "\2022";
+    color: rgb(100, 194, 245);
+    display: inline-block; 
+    width: 1em;
+    padding-block: 5px ;
+    font-size: 1.4rem;
+}
