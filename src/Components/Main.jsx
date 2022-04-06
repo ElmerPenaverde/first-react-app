@@ -5,7 +5,7 @@ export default function Main (){
         <div>
             <h1 className='Main' >Fun Facts About React</h1>
             <ul>
-                <li>Was first release in 2013</li>
+                <li> try Was first release in 2013</li>
                 <li>Has well over 100k starts on Github</li>
                 <li>Is maintained by Meta</li>
                 
